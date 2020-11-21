@@ -1,0 +1,25 @@
+{
+  "name": "node-diary",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-numbers": "^1.0.4",
+    "commander": "^6.1.0",
+    "console-countdown": "0.0.15",
+    "leveldown": "^5.6.0",
+    "levelup": "^4.4.0",
+    "sound-play": "^1.0.5",
+    "ttys": "0.0.3",
+    "uuid": "^8.3.0"
+  },
+  "bin": {
+    "count": "./bin/count.js",
+    "countdown": "./bin/countdown.js"
+  }
+}
